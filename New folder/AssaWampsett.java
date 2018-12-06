@@ -20,7 +20,7 @@ public void TryAssaWampsett() {
 	rod.run();
    
 	Random rand= new Random();
-    x=rand.nextInt(4);
+        x=rand.nextInt(4);
     
     if(x==0){
     	
@@ -62,7 +62,7 @@ while(true) {   //question check****
   
 				@SuppressWarnings("resource")
 				Scanner choice = new Scanner(System.in);	
-                c = choice.nextInt();
+                                c = choice.nextInt();
                     
   
 	      }catch(InputMismatchException e) {
